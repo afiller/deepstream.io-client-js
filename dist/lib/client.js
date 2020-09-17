@@ -225,7 +225,7 @@ Client.prototype._$onError = function (topic, event, msg) {
       errorMsg += ' (' + topic + ')';
     }
 
-    throw new Error(errorMsg);
+    // throw new Error(errorMsg);
   }
 };
 
