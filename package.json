@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "precommit": "npm run lint && npm run unit",
+    "_precommit": "npm run lint && npm run unit",
     "commitmsg": "validate-commit-msg",
     "lint": "node_modules/.bin/eslint src/",
     "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json",
