@@ -1,6 +1,6 @@
 {
   "name": "deepstream.io-client-js",
-  "version": "2.3.4",
+  "version": "2.3.4-pathmate",
   "description": "the javascript client for deepstream.io",
   "main": "dist/lib/client.js",
   "types": "src/client.d.ts",
@@ -26,38 +26,38 @@
     "url": "https://github.com/deepstreamIO/deepstream.io-client-js.git"
   },
   "optionalDependencies": {
-    "utf-8-validate": "^5.0.9",
-    "bufferutil": "^4.0.6"
+    "utf-8-validate": "5.0.10",
+    "bufferutil": "4.0.7"
   },
   "dependencies": {
-    "component-emitter2": "^1.3.5",
-    "ws": "^5"
+    "component-emitter2": "1.3.5",
+    "ws": "5.2.3"
   },
   "browser": {
     "net": false,
     "ws": false
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "grunt": "^1.0.2",
-    "babel-preset-es2015": "^6.24.1",
-    "babelify": "^8.0.0",
-    "coveralls": "^3.0.1",
-    "cucumber": "^4.2.1",
-    "deepstream.io": "git+https://github.com/deepstreamIO/deepstream.io.git",
-    "derequire": "^2.0.6",
-    "eslint-config-deepstream": "^2.2.1",
-    "grunt-browserify": "^5.3.0",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-uglify": "^3.3.0",
-    "husky": "^0.14.3",
-    "istanbul": "^0.4.5",
-    "jasmine": "^3.1.0",
-    "jasmine-spec-reporter": "^4.2.1",
+    "babel-cli": "6.26.0",
+    "grunt": "1.6.1",
+    "babel-preset-es2015": "6.24.1",
+    "babelify": "8.0.0",
+    "coveralls": "3.1.1",
+    "cucumber": "4.2.1",
+    "deepstream.io": "git+https://github.com/deepstreamIO/deepstream.io.git##910923779175895e96a83d57af520ba55b782e66",
+    "derequire": "2.1.1",
+    "eslint-config-deepstream": "2.2.1",
+    "grunt-browserify": "5.3.0",
+    "grunt-cli": "1.4.3",
+    "grunt-contrib-uglify": "3.4.0",
+    "husky": "0.14.3",
+    "istanbul": "0.4.5",
+    "jasmine": "3.99.0",
+    "jasmine-spec-reporter": "4.2.1",
     "proxyquire": "2.0.1",
-    "sinon": "^5.0.7",
-    "validate-commit-msg": "^2.14.0",
-    "watch": "^1.0.2"
+    "sinon": "5.1.1",
+    "validate-commit-msg": "2.14.0",
+    "watch": "1.0.2"
   },
   "author": "deepstreamHub GmbH",
   "license": "Apache-2.0",
